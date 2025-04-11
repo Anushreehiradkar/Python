@@ -1,4 +1,4 @@
-#this is comment
+# using runtime base image
 FROM python:3-alpine
 WORKDIR /service
 COPY requirements.txt .
