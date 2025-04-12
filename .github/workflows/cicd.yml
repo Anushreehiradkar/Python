@@ -24,7 +24,7 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: |
-          cd /home/ubuntu/Docker && git pull 
+          cd /home/ubuntu/Python && git pull 
           sleep 5
           sudo docker stop cicd
           sleep 10
