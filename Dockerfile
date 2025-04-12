@@ -1,4 +1,4 @@
-# using runtime base image
+# using runtime base image s
 FROM python:3-alpine
 WORKDIR /service
 COPY requirements.txt .
